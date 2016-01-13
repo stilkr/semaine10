@@ -1,0 +1,86 @@
+<!doctype html>
+
+<html lang="fr">
+
+	<head>
+		<meta charset="utf-8"> 
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+			<title>Allons au cinéma</title>
+
+				<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+				<link href="cineheroes.css" rel="stylesheet" type='text/css'>
+	</head>
+	
+	<body>
+		<h1>Cliquez sur <span class="glyphicon glyphicon-star"></span> pour vous faire une toile</h1>  
+		
+		<div class ="container">
+
+			<div class="row">				
+			
+				<div class="col-lg-4 col-md-4 col-xs-12">	
+					
+					<div id= "bouton">				
+						<img src="img/salle.png" alt="salle" id="salle" onmousedown="mouseDown()" onmouseup="mouseUp()"/>
+						<p id="score"></p>	
+					</div>
+					
+				</div>
+						
+				<div class="col-lg-8 col-md-8 col-xs-12">
+
+					<div class="col-lg-6 col-md-6 col-xs-12">
+					
+						<p id="consignes">Vous vouliez aller au cinéma. Comme 500 autres personnes.</p>
+						<p id="consignes2">Pour patienter, cliquez sur l'étoile à gauche.</p>
+					
+					</div>						
+											
+					<div class="col-lg-6 col-md-6 col-xs-12">	
+					
+						<button id="multiplicateur" class="btn btn-warning"></button>
+						<button id="clicauto" class="btn btn-warning"></button>		
+						
+					</div>		
+					
+					<div class="col-xs-12">	
+							
+						<div id="affichage">
+						<img src="img/glace.png" alt="cornet" id="cornet">							
+						<img src="img/boisson.png" alt="glou" id="glou">
+						<img src="img/popcorn.png" alt="popcorn" id="popcorn">		
+						<img src="img/lunettes.png" alt="lunettes 3D" id="glasses">			
+						<img src="img/ticket.png" alt="billet" id="billet">					
+						</div>
+						
+					</div>		
+
+				</div>						
+
+			</div>
+
+		<footer>
+			<div class="row">
+									
+				<div class="col-md-6 col-xs-12">
+				<p id="credits1">Icônes par : <a href="https://www.iconfinder.com/iconsimple" title="Iconsimple">Pixan</a>
+				<br/>
+				<a href="https://www.iconfinder.com/spreadrr" title="Spreadrr">Spreadrr Creations</a></p>
+				</div>
+				
+				<div class="col-md-6 col-xs-12">
+				<p id="credits2">Musique: <a href="http://www.nil.es/rpajares/index_e.htm" title="Ramon Pajares Box">Camille Saint-Saëns, <em><strong>Aquarium</strong>, in <strong>Le Carnaval des Animaux</strong></em>, par Ramon Pajares Box</a></p>
+				<br/>
+				<audio id="musica" src="aquarium.mp3" autoplay controls loop>Votre navigateur ne supporte par la balise audio de HTML5.</audio>
+				</div>
+				
+			</div>
+		</footer>
+				
+		<script src="js.js"></script>
+		
+		</div>
+	</body>
+</html>
