@@ -42,7 +42,8 @@ afficherNbMultiplicateur();
 /* fin du code simplon */
 
 
-/* déclaration des id */							
+/* déclaration des id */			
+	
 
 $clicauto = document.getElementById("clicauto");								// les boutons
 $salle = document.getElementById("salle");
@@ -116,9 +117,11 @@ afficherConsignes();
 			consignes.innerHTML = "Ouf! Vous avez finalement eu le temps. La séance est sur le point de commencer.";
 			consignes2.innerHTML = "Vous allez enfin pouvoir vous faire une toile! Bravo !";
 			consignes.style.color = "#ecf0f1";		
-			consignes2.style.color = "#ecf0f1";	
-		
-			affichage.style.display = "visible";
+			consignes2.style.color = "#ecf0f1";			
+			affichage.style.display = "none";			
+			bouton.style.visibility = "hidden";
+			multiplicateur.style.visibility = "hidden";
+			clicauto.style.visibility = "hidden";		
 			}
 		
 		else if (score < 50)						{
