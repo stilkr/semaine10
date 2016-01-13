@@ -11,6 +11,7 @@
 	img							{
 	display:inline-block;
 	padding:0.5em;
+	margin-top:2em;
 	}
 
 	span.glyphicon 				{
@@ -40,7 +41,10 @@
 		text-align:left;
 		font-style:italic;
 		font-weight:bolder;
-		margin-bottom:0.5em;
+		margin-bottom:0.2em;	
+		}
+	#consignes, #consignes2 		{	
+		margin-top:3em;	
 		}
 		
 	#credits1, #credits2 		{
@@ -50,7 +54,6 @@
 		text-align:justify;
 		font-style:normal;
 		font-weight:lighter;
-		margin-bottom:0.3em;
 		}
 		
 	a:hover, #score 				{
@@ -61,8 +64,8 @@
 		.btn 					{
 		border-radius:8px;
 		height:7em;
-		width:14.8em;		
-		margin-bottom:0.5em;
+		width:14.8em;	
+		margin-top:3em;				
 		margin-left:1.5em;
 		padding:0.5em;
 		}
